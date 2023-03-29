@@ -14,7 +14,8 @@ const Service = () => {
               Quia tempore at, incidunt fugiat deleniti hic molestiae natus. 
               Nesciunt adipisci fuga enim debitis aliquam aperiam, 
               praesentium a maiores laboriosam voluptate quaerat?</p>
-              <button className='bg-lime-400 hover:bg-lime-700 w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black hover:text-slate-300'>Contact Now!</button>
+              <button className='bg-black hover:bg-lime-700 w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-white
+               hover:text-slate-900'>Contact Now!</button>
           </div>
         </div>
     </div>
