@@ -8,14 +8,11 @@ const Service = () => {
         <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
           <img src={service} alt="" className='w-[500px] mx-auto my-4'/>
           <div className='flex flex-col justify-center'>
-            <p className='text-lime-600/75 font-bold'>Lorem ipsum dolor sit amet consectetur</p>
-            <h1 className='text-slate-900 md:text-4xl sm:text-3xl text-2xl font-bold py-2'>Lorem ipsum dolor sit amet consectetur</h1>
-            <p className='text-slate-900'>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Quia tempore at, incidunt fugiat deleniti hic molestiae natus. 
-              Nesciunt adipisci fuga enim debitis aliquam aperiam, 
-              praesentium a maiores laboriosam voluptate quaerat?</p>
-              <button className='bg-black hover:bg-lime-700 w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-white
-               hover:text-slate-900'>Contact Now!</button>
+            <p className='text-lime-600/75 font-bold text-5xl'>ABOUT US</p>
+            <h1 className='text-slate-900 md:text-4xl sm:text-3xl text-2xl font-bold py-2'>3rd Year Cybersecurity Students of Universidad De Manila</h1>
+            <p className='text-slate-900'>Techcare composes of the students of Group 1 under the subject of Technopreneurship, 
+            which aims to help students get their gadgets and devices upto optimum capacity.</p>
+              
           </div>
         </div>
      
