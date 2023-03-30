@@ -18,7 +18,7 @@ const NavBar = () => {
   
         <img src={htf} alt="" className="w-40 object-cover cursor-pointer"/> 
         <ul className="hidden md:flex">
-            <li className="p-4 cursor-pointer text-slate-300 hover:text-lime-700">Home</li>
+            <li to={"/"} className="p-4 cursor-pointer text-slate-300 hover:text-lime-700">Home</li>
             <li className="p-4 cursor-pointer text-slate-300 hover:text-lime-700">Services</li>
             <li className="p-4 cursor-pointer text-slate-300 hover:text-lime-700">About</li>
             <li className="p-4 cursor-pointer text-slate-300 hover:text-lime-700">Contact</li>

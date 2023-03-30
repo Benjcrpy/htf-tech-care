@@ -10,7 +10,7 @@ const Newsletter = () => {
             </div>
             <div className='my-4 gap-2'>
                 <div className='flex flex-col sm:flex-row items-center justify-between w-full'>
-                    <input className='p-3 flex w-full bg-black border-2 border-slate-500 rounded-md text-white' 
+                    <input className='py-3 my-4 flex w-full bg-black border-2 border-slate-500 rounded-md text-white' 
                     type="email" 
                     placeholder="Enter your email"/>
                     <button className='bg-lime-400 hover:bg-lime-700 w-[200px] border-2 border-slate-700 rounded-md font-medium ml-4 my-6 px-6 py-3 text-black hover:text-slate-300'>Notify us!</button>
