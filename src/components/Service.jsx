@@ -1,6 +1,6 @@
 import React from 'react'
 import service from '../img/service.png'
-import Card from './Card'
+
 
 const Service = () => {
   return (
