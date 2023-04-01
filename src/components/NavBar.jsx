@@ -2,6 +2,7 @@ import React from 'react'
 import { AiOutlineClose, AiOutlineMenu} from "react-icons/ai"
 import { useState } from "react"
 import htf from '../img/htf.png';
+import d1 from '../img/d1.png'
 
 
 
@@ -16,7 +17,7 @@ const NavBar = () => {
   return (
     <div className=' w-full flex justify-between items-center max-w-[1240] mx-auto h-24 px-4'>
   
-        <img src={htf} alt="" className="w-40 object-cover cursor-pointer"/> 
+        <img src={d1} alt="" className="w-40 object-cover cursor-pointer"/> 
         <ul className="hidden md:flex">
             <li to={"/"} className="p-4 cursor-pointer text-slate-300 hover:text-lime-700">Home</li>
             <li className="p-4 cursor-pointer text-slate-300 hover:text-lime-700">Services</li>
@@ -28,7 +29,7 @@ const NavBar = () => {
             {!nav ? <AiOutlineMenu size={20}/> : <AiOutlineClose size={20}/>}
         </div>
         <div  className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-gray-700' : 'fixed left-[-100%]'}>
-            <img src={htf} alt=""/> 
+            <img src={d1} alt=""/> 
             <ul className="uppercase p-4 text-white">
             <li className="p-4 cursor-pointer">Home</li>
             <li className="p-4 cursor-pointer">Services</li>
