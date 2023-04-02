@@ -8,7 +8,7 @@ export const Footer = () => {
     <div className='max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300'>
       <div>
       <img src={d1} alt="" className="w-40 object-cover cursor-pointer"/> 
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab est assumenda.</p>
+      <p>Easy, Relax, Calm</p>
       <div className='flex justify-between md:w-[30%] my-6'>
         <FaFacebookSquare/>
         <FaInstagramSquare/>
@@ -17,33 +17,31 @@ export const Footer = () => {
       </div>
       <div className='lg:col-span-2 flex justify-between'>
         <div>
-            <h6 className='font-medium text-gray-400'>Service</h6>
+            <h6 className='font-medium text-slate-300 uppercase'>About HardWare</h6>
                 <ul>
-                    <li>Lorem ipsum dolor sir amet</li>
-                    <li>Lorem ipsum dolor sir amet</li>
-                    <li>Lorem ipsum dolor sir amet</li>
-                    <li>Lorem ipsum dolor sir amet</li>
-                    <li>Lorem ipsum dolor sir amet</li>
+                    <li>Cleaning</li>
+                    <li>Repair</li>
+                    <li>Built Computer</li>
                 </ul>
         </div>
         <div>
-            <h6 className='font-medium text-gray-400'>Service</h6>
+            <h6 className='font-medium text-slate-300 uppercase'>About SoftWare</h6>
                 <ul>
-                    <li>Lorem ipsum dolor sir amet</li>
-                    <li>Lorem ipsum dolor sir amet</li>
-                    <li>Lorem ipsum dolor sir amet</li>
-                    <li>Lorem ipsum dolor sir amet</li>
-                    <li>Lorem ipsum dolor sir amet</li>
+                    <li>Built Website</li>
+                    <li>Commission</li>
+                    <li>Formatting</li>
+                    <li>Booting</li>
+                    <li>Crack App's</li>
+                    <li>FAQ's</li>
                 </ul>
         </div>
         <div>
-            <h6 className='font-medium text-gray-400'>Service</h6>
+            <h6 className='font-medium text-slate-300 uppercase'>Contact Us</h6>
                 <ul>
-                    <li>Lorem ipsum dolor sir amet</li>
-                    <li>Lorem ipsum dolor sir amet</li>
-                    <li>Lorem ipsum dolor sir amet</li>
-                    <li>Lorem ipsum dolor sir amet</li>
-                    <li>Lorem ipsum dolor sir amet</li>
+                    <li>htfcare@gmail.com</li>
+                    <li>093848234152</li>
+                    <li>Facebook: htf-care</li>
+                    <li>Instagram: htf-care-tech</li>
                 </ul>
         </div>
       </div>
